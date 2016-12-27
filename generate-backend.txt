@@ -1,0 +1,1 @@
+mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 -DarchetypeGroupId=org.glassfish.jersey.archetypes -DinteractiveMode=false -DgroupId=tk.farafonoff -DartifactId=sos -Dpackage=tk.farafonoff.sos -DarchetypeVersion=2.25 -DprojectAuthor=farafonoff@gmail.com -DprojectName=stackOverflowSearch "-DprojectDescription=Stackoverflow search app - backend"
