@@ -23,7 +23,7 @@ public class Main {
     public static HttpServer startServer() {
         // create a resource config that scans for JAX-RS resources and providers
         // in tk.farafonoff.sos package
-        final ResourceConfig rc = new ResourceConfig().packages("tk.farafonoff.sos");
+        final ResourceConfig rc = new Application();
 
         // create and start a new instance of grizzly http server
         // exposing the Jersey application at BASE_URI
@@ -36,8 +36,6 @@ public class Main {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-        new StackoverflowDAO().searchByTitle("java", 1);
-
         final HttpServer server = startServer();
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
