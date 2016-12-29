@@ -18,9 +18,9 @@ function apiCall(query, page=1) {
 function* makeQuery(action) {
     //const user = yield call(Api.fetchUser, action.payload.userId);
     let query = action.payload.title;
-    const response = yield call(apiCall, query, action.payload.page);
-    const data = response;
-    if (action.payload.page==undefined) {
+    const data = yield call(apiCall, query, action.payload.page);
+    //const data = mock;
+    if (action.payload.page===undefined) {
         yield put(generators.searchResults(data));
     } else {
         yield put(generators.searchMoreResults(data, action.payload.page));

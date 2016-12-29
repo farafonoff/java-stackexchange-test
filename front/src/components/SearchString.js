@@ -1,7 +1,7 @@
 /**
  * Created by Artem_Farafonov on 12/26/2016.
  */
-import { Button, FormControl, Row, Col, InputGroup } from 'react-bootstrap';
+import { Button, FormControl, Row, Col, InputGroup, Form } from 'react-bootstrap';
 import React, { Component } from 'react';
 
 export default class SearchString extends Component {
@@ -12,16 +12,19 @@ export default class SearchString extends Component {
     searchClick(evt) {
         evt.preventDefault();
         let text = this.state.query.trim();
-        this.props.onSearch(text);
+        if (text.length>0) {
+          this.props.onSearch(text);
+        }
     }
     render()  {
         return (
+          <Form>
             <Row>
                 <Col lg={12}>
                     <InputGroup className="input-group-lg">
                         <FormControl
                             type="text"
-                            placeholder="java"
+                            placeholder="Search in Stackoverflow"
                             className="input-lg"
                             onChange={evt=>{this.setState({query: evt.target.value})}}
                         />
@@ -35,6 +38,7 @@ export default class SearchString extends Component {
                         </span>
                     </InputGroup>
                 </Col>
-            </Row>)
+            </Row>
+          </Form>)
     }
 }
