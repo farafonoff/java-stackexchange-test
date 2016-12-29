@@ -6,16 +6,16 @@
         version="3.0"
 >
     <servlet>
-        <servlet-name>rest-test</servlet-name>
+        <servlet-name>api</servlet-name>
         <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>javax.ws.rs.Application</param-name>
-            <param-value>tk.farafonoff.sos</param-value>
+            <param-value>tk.farafonoff.sos.Application</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name> rest-test</servlet-name>
-        <url-pattern>/rest/*</url-pattern>
+        <servlet-name>api</servlet-name>
+        <url-pattern>/api/*</url-pattern>
     </servlet-mapping>
 </web-app>
