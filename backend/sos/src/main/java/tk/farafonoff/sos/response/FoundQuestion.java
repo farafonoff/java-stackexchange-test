@@ -6,6 +6,7 @@ package tk.farafonoff.sos.response;
 public class FoundQuestion {
     String title;
     String link;
+	long id;
 
     public boolean isAnswered() {
         return answered;
@@ -32,4 +33,12 @@ public class FoundQuestion {
     public void setLink(String link) {
         this.link = link;
     }
+	
+	public void setId(long id) {
+		this.id = id;
+	}
+	
+	public long getId() {
+		return id;
+	}
 }

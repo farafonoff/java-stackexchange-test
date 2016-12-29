@@ -27,7 +27,7 @@ export default  {
         "creation_date": 1482654159,
         "last_edit_date": 1482734556,
         "question_id": 41319701,
-        "link": "http://stackoverflow.com/questions/41319701/communication-between-threads-in-the-different-pools-java",
+        "link": "http://stackoverflow.com/items/41319701/communication-between-threads-in-the-different-pools-java",
         "title": "communication between threads in the different pools java"
     },
     {
@@ -54,7 +54,7 @@ export default  {
         "last_activity_date": 1482746856,
         "creation_date": 1482746856,
         "question_id": 41329560,
-        "link": "http://stackoverflow.com/questions/41329560/timed-out-waiting-for-a-free-available-connection-in-java-scheduler",
+        "link": "http://stackoverflow.com/items/41329560/timed-out-waiting-for-a-free-available-connection-in-java-scheduler",
         "title": "Timed out waiting for a free available connection. in Java Scheduler"
     },
     {
@@ -79,7 +79,7 @@ export default  {
         "last_activity_date": 1482746835,
         "creation_date": 1482746835,
         "question_id": 41329555,
-        "link": "http://stackoverflow.com/questions/41329555/apache-tika-and-apache-solr-integration-through-java-api",
+        "link": "http://stackoverflow.com/items/41329555/apache-tika-and-apache-solr-integration-through-java-api",
         "title": "Apache tika and Apache solr integration through java api"
     },
     {
@@ -104,7 +104,7 @@ export default  {
         "last_activity_date": 1482746764,
         "creation_date": 1482746764,
         "question_id": 41329541,
-        "link": "http://stackoverflow.com/questions/41329541/how-to-put-border-colour-to-every-element-on-android-automation-like-ui-automato",
+        "link": "http://stackoverflow.com/items/41329541/how-to-put-border-colour-to-every-element-on-android-automation-like-ui-automato",
         "title": "How to put border colour to every element on android automation like UI Automator using java, selenim"
     },
     {
@@ -129,7 +129,7 @@ export default  {
         "last_activity_date": 1482746714,
         "creation_date": 1482746714,
         "question_id": 41329527,
-        "link": "http://stackoverflow.com/questions/41329527/how-can-i-use-an-arraylist-of-java-object-inside-fragment-which-is-initialized",
+        "link": "http://stackoverflow.com/items/41329527/how-can-i-use-an-arraylist-of-java-object-inside-fragment-which-is-initialized",
         "title": "How can I use an arraylist of Java object inside. Fragment which is initialized in an activity"
     },
     {
@@ -154,7 +154,7 @@ export default  {
         "last_activity_date": 1482746331,
         "creation_date": 1482744434,
         "question_id": 41329019,
-        "link": "http://stackoverflow.com/questions/41329019/how-to-do-conditional-operation-in-java-8-stream-to-skip-next-stream-operation",
+        "link": "http://stackoverflow.com/items/41329019/how-to-do-conditional-operation-in-java-8-stream-to-skip-next-stream-operation",
         "title": "How to do conditional operation in java 8 stream to skip next stream operation?"
     },
     {
@@ -180,7 +180,7 @@ export default  {
         "creation_date": 1482745581,
         "last_edit_date": 1482745881,
         "question_id": 41329260,
-        "link": "http://stackoverflow.com/questions/41329260/a-jlist-rolls-down-when-a-jbutton-is-clicked-java",
+        "link": "http://stackoverflow.com/items/41329260/a-jlist-rolls-down-when-a-jbutton-is-clicked-java",
         "title": "A JList rolls down when a JButton is clicked ? JAVA"
     },
     {
@@ -207,7 +207,7 @@ export default  {
         "creation_date": 1482743386,
         "last_edit_date": 1482746158,
         "question_id": 41328851,
-        "link": "http://stackoverflow.com/questions/41328851/which-tree-type-used-in-java-8-hashmap-bucket",
+        "link": "http://stackoverflow.com/items/41328851/which-tree-type-used-in-java-8-hashmap-bucket",
         "title": "Which tree type used in java 8 HashMap bucket?"
     },
     {
@@ -233,7 +233,7 @@ export default  {
         "last_activity_date": 1482745798,
         "creation_date": 1482745798,
         "question_id": 41329310,
-        "link": "http://stackoverflow.com/questions/41329310/updating-xml-files-in-java",
+        "link": "http://stackoverflow.com/items/41329310/updating-xml-files-in-java",
         "title": "updating XML files in java"
     },
     {
@@ -256,7 +256,7 @@ export default  {
         "creation_date": 1482737958,
         "last_edit_date": 1482741184,
         "question_id": 41327980,
-        "link": "http://stackoverflow.com/questions/41327980/however-instead-of-executing-the-command-manually-from-the-command-line-i-would",
+        "link": "http://stackoverflow.com/items/41327980/however-instead-of-executing-the-command-manually-from-the-command-line-i-would",
         "title": "However instead of executing the command manually from the command line i would like to write some java wrapper class that would internally"
     },
     {
@@ -283,7 +283,7 @@ export default  {
         "creation_date": 1471861547,
         "last_edit_date": 1472187002,
         "question_id": 39077104,
-        "link": "http://stackoverflow.com/questions/39077104/is-it-possible-to-delete-specific-data-key-and-its-specific-value-in-gemfire-u",
+        "link": "http://stackoverflow.com/items/39077104/is-it-possible-to-delete-specific-data-key-and-its-specific-value-in-gemfire-u",
         "title": "Is it possible to delete specific data (key and its specific value) in gemfire using java?"
     },
     {
@@ -307,7 +307,7 @@ export default  {
         "creation_date": 1482738727,
         "last_edit_date": 1482745104,
         "question_id": 41328112,
-        "link": "http://stackoverflow.com/questions/41328112/how-to-write-single-java-program-with-all-oops-concepts",
+        "link": "http://stackoverflow.com/items/41328112/how-to-write-single-java-program-with-all-oops-concepts",
         "closed_reason": "too broad",
         "title": "how to write single java program with all oops concepts?"
     },
@@ -333,7 +333,7 @@ export default  {
         "creation_date": 1482744660,
         "last_edit_date": 1482745011,
         "question_id": 41329068,
-        "link": "http://stackoverflow.com/questions/41329068/how-to-make-new-request-in-play2-controller-using-java",
+        "link": "http://stackoverflow.com/items/41329068/how-to-make-new-request-in-play2-controller-using-java",
         "title": "How to make new request in play2 controller using java?"
     },
     {
@@ -360,7 +360,7 @@ export default  {
         "last_activity_date": 1482744608,
         "creation_date": 1482744330,
         "question_id": 41328998,
-        "link": "http://stackoverflow.com/questions/41328998/how-to-do-java-android-method-base64-encodetostring-in-php",
+        "link": "http://stackoverflow.com/items/41328998/how-to-do-java-android-method-base64-encodetostring-in-php",
         "title": "How to do java android method Base64.encodeToString(); in php"
     },
     {
@@ -385,7 +385,7 @@ export default  {
         "creation_date": 1482727246,
         "last_edit_date": 1482743384,
         "question_id": 41326492,
-        "link": "http://stackoverflow.com/questions/41326492/arabic-is-not-showing-in-ireport-pdf-java",
+        "link": "http://stackoverflow.com/items/41326492/arabic-is-not-showing-in-ireport-pdf-java",
         "title": "arabic is not showing in ireport pdf java"
     },
     {
@@ -413,7 +413,7 @@ export default  {
         "creation_date": 1482419263,
         "last_edit_date": 1482743785,
         "question_id": 41286149,
-        "link": "http://stackoverflow.com/questions/41286149/java-javax-crypto-badpaddingexception-given-final-block-not-properly-padded",
+        "link": "http://stackoverflow.com/items/41286149/java-javax-crypto-badpaddingexception-given-final-block-not-properly-padded",
         "title": "java - javax.crypto.BadPaddingException: Given final block not properly padded"
     },
     {
@@ -438,7 +438,7 @@ export default  {
         "creation_date": 1270079968,
         "last_edit_date": 1369227978,
         "question_id": 2557303,
-        "link": "http://stackoverflow.com/questions/2557303/how-are-scala-traits-compiled-into-java-bytecode",
+        "link": "http://stackoverflow.com/items/2557303/how-are-scala-traits-compiled-into-java-bytecode",
         "title": "How are Scala traits compiled into Java bytecode?"
     },
     {
@@ -462,7 +462,7 @@ export default  {
         "creation_date": 1482706045,
         "last_edit_date": 1482736430,
         "question_id": 41325062,
-        "link": "http://stackoverflow.com/questions/41325062/knights-least-amount-of-moves-debug-java",
+        "link": "http://stackoverflow.com/items/41325062/knights-least-amount-of-moves-debug-java",
         "title": "Knight&#39;s Least Amount of Moves Debug Java"
     },
     {
@@ -488,7 +488,7 @@ export default  {
         "last_activity_date": 1482743379,
         "creation_date": 1482742217,
         "question_id": 41328646,
-        "link": "http://stackoverflow.com/questions/41328646/why-do-people-encourage-to-have-more-classes-in-java-when-more-objects-means-mor",
+        "link": "http://stackoverflow.com/items/41328646/why-do-people-encourage-to-have-more-classes-in-java-when-more-objects-means-mor",
         "closed_reason": "primarily opinion-based",
         "title": "Why do people encourage to have more classes in java when more objects means more time for implementation?"
     },
@@ -517,7 +517,7 @@ export default  {
         "creation_date": 1320962792,
         "last_edit_date": 1407953750,
         "question_id": 8087023,
-        "link": "http://stackoverflow.com/questions/8087023/is-jco-java-connector-of-sap-thread-safe",
+        "link": "http://stackoverflow.com/items/8087023/is-jco-java-connector-of-sap-thread-safe",
         "title": "Is JCO (java connector of SAP) thread safe?"
     },
     {
@@ -542,7 +542,7 @@ export default  {
         "last_activity_date": 1482743049,
         "creation_date": 1389712235,
         "question_id": 21116916,
-        "link": "http://stackoverflow.com/questions/21116916/hbase-error-java-home-is-not-set-and-java-could-not-be-found",
+        "link": "http://stackoverflow.com/items/21116916/hbase-error-java-home-is-not-set-and-java-could-not-be-found",
         "title": "(HBase) Error: JAVA_HOME is not set and Java could not be found"
     },
     {
@@ -570,7 +570,7 @@ export default  {
         "creation_date": 1482405635,
         "last_edit_date": 1482419670,
         "question_id": 41281973,
-        "link": "http://stackoverflow.com/questions/41281973/java-jdbc-unable-to-connect-to-a-oracle-database-with-ssl",
+        "link": "http://stackoverflow.com/items/41281973/java-jdbc-unable-to-connect-to-a-oracle-database-with-ssl",
         "title": "Java JDBC unable to connect to a Oracle database with SSL"
     },
     {
@@ -597,7 +597,7 @@ export default  {
         "creation_date": 1482459715,
         "last_edit_date": 1482460199,
         "question_id": 41294385,
-        "link": "http://stackoverflow.com/questions/41294385/android-studio-add-java-8-config-get-error-could-not-get-unknown-property",
+        "link": "http://stackoverflow.com/items/41294385/android-studio-add-java-8-config-get-error-could-not-get-unknown-property",
         "title": "Android studio add Java 8 config get error &quot;Could not get unknown property&quot;"
     },
     {
@@ -620,7 +620,7 @@ export default  {
         "last_activity_date": 1482741812,
         "creation_date": 1482739908,
         "question_id": 41328307,
-        "link": "http://stackoverflow.com/questions/41328307/java-rmi-how-client-can-get-server-console-output",
+        "link": "http://stackoverflow.com/items/41328307/java-rmi-how-client-can-get-server-console-output",
         "title": "JAVA RMI - how client can get server console output"
     },
     {
@@ -645,7 +645,7 @@ export default  {
         "creation_date": 1310119793,
         "last_edit_date": 1310120239,
         "question_id": 6622974,
-        "link": "http://stackoverflow.com/questions/6622974/convert-string-to-comma-separated-string-in-java",
+        "link": "http://stackoverflow.com/items/6622974/convert-string-to-comma-separated-string-in-java",
         "title": "Convert String[] to comma separated string in java"
     },
     {
@@ -672,7 +672,7 @@ export default  {
         "creation_date": 1482739889,
         "last_edit_date": 1482740239,
         "question_id": 41328303,
-        "link": "http://stackoverflow.com/questions/41328303/when-click-on-the-textbox-inside-the-div-div-onclick-java-script-function-fire",
+        "link": "http://stackoverflow.com/items/41328303/when-click-on-the-textbox-inside-the-div-div-onclick-java-script-function-fire",
         "title": "when click on the textbox inside the div, div onclick java script function fire"
     },
     {
@@ -696,7 +696,7 @@ export default  {
         "creation_date": 1482739380,
         "last_edit_date": 1482739415,
         "question_id": 41328226,
-        "link": "http://stackoverflow.com/questions/41328226/what-is-the-error-in-this-java-statement",
+        "link": "http://stackoverflow.com/items/41328226/what-is-the-error-in-this-java-statement",
         "closed_reason": "off-topic",
         "title": "What is the error in this java statement?"
     },
@@ -723,7 +723,7 @@ export default  {
         "creation_date": 1287938411,
         "last_edit_date": 1389547390,
         "question_id": 4009198,
-        "link": "http://stackoverflow.com/questions/4009198/java-get-greatest-common-divisor",
+        "link": "http://stackoverflow.com/items/4009198/java-get-greatest-common-divisor",
         "title": "Java: get greatest common divisor"
     },
     {
@@ -747,7 +747,7 @@ export default  {
         "creation_date": 1482738881,
         "last_edit_date": 1482739927,
         "question_id": 41328131,
-        "link": "http://stackoverflow.com/questions/41328131/java-how-to-specific-the-2003xml-and-the-xls-excel-file",
+        "link": "http://stackoverflow.com/items/41328131/java-how-to-specific-the-2003xml-and-the-xls-excel-file",
         "title": "java how to specific the .2003xml and the .xls excel file"
     },
     {
@@ -772,7 +772,7 @@ export default  {
         "creation_date": 1482634942,
         "last_edit_date": 1482659388,
         "question_id": 41318377,
-        "link": "http://stackoverflow.com/questions/41318377/in-a-file-of-10-000-points-of-the-form-x1-y1-x2-y2-how-to-detect-at-least-4",
+        "link": "http://stackoverflow.com/items/41318377/in-a-file-of-10-000-points-of-the-form-x1-y1-x2-y2-how-to-detect-at-least-4",
         "title": "In a file of 10,000 points of the form X1 y1 X2 y2 ,,, How to detect at least 4 which form a square ? java"
     }
 ],

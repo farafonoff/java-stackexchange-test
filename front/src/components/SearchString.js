@@ -1,7 +1,7 @@
 /**
  * Created by Artem_Farafonov on 12/26/2016.
  */
-import { Button, Form, FormControl, Row, Col, InputGroup } from 'react-bootstrap';
+import { Button, FormControl, Row, Col, InputGroup } from 'react-bootstrap';
 import React, { Component } from 'react';
 
 export default class SearchString extends Component {
