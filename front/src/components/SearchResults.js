@@ -35,7 +35,7 @@ export default class SearchResults extends Component {
 
     renderLine(item) {
         return <tr className={"resultLine "+(item.answered?"success":"")} key={item.id} >
-            <td>{item.title}</td>
+            <td dangerouslySetInnerHTML={{__html:  item.title}} />
             <td><a href={item.link} target="_blank">GoTo</a></td>
         </tr>
     }
