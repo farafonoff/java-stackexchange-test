@@ -3,23 +3,47 @@
  */
 import React, { Component } from 'react';
 import { Table } from 'react-bootstrap';
+import ReduxInfiniteScroll from 'redux-infinite-scroll';
+import {FormattedDate, FormattedRelative} from 'react-intl';
 
 export default class SearchResults extends Component {
     render()  {
-        return (this.props.data.items?<Table className="table">
-            <thead>
-            <tr><th>Title</th><th>Link</th></tr>
-            </thead>
-            <tbody>
-                {this.props.data.items.map(this.renderLine.bind(this))}
-            </tbody>
-        </Table>:null)
+        return this.renderTable(this.props.data.items);
+    }
+
+    loadMore() {
+        this.props.onLoadMore();
+    }
+
+    renderTable(items) {
+        return (
+            <Table className="table">
+                <thead>
+                <tr><th>Created</th><th>Last activity</th><th>Title</th><th>Link</th></tr>
+                </thead>
+                <ReduxInfiniteScroll
+                    hasMore={this.props.data.hasMore}
+                    loadMore={this.loadMore.bind(this)}
+                    loadingMore={this.props.isNextPageLoading}
+                    elementIsScrollable={false}
+                    holderType={"tbody"}
+                    loader={<tr><td colSpan="2">Loading...</td></tr>}
+                >
+                {items.map(this.renderLine.bind(this))}
+                </ReduxInfiniteScroll>
+            </Table>);
     }
 
     renderLine(item) {
-        return <tr className="resultLine" key={item.question_id}>
-            <td>{item.title}</td>
-            <td><a href={item.link}>GoTo</a></td>
+        return <tr className={"resultLine "+(item.answered?"success":"")} key={item.id} >
+            <td> <FormattedDate
+              value={new Date(item.create_date*1000)}
+              day="numeric"
+              month="long"
+              year="numeric" /> </td>
+            <td> <FormattedRelative value={new Date(item.activity_date*1000)} /> </td>
+            <td dangerouslySetInnerHTML={{__html:  item.title}} />
+            <td><a href={item.link} target="_blank">GoTo</a></td>
         </tr>
     }
 }

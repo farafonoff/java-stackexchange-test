@@ -6,7 +6,7 @@ import {combineReducers} from 'redux'
 
 let initial = {
     search: {query: ""},
-    searchResults: { data: {} }
+    searchResults: { data: {}, page: 1, loading: false }
 }
 
 function search(state = initial.search,action) {
@@ -18,7 +18,18 @@ function search(state = initial.search,action) {
 
 function searchResults(state = initial.searchResults,action) {
     switch (action.type) {
-        case actions.SEARCH_RESULTS: return { data: action.payload };
+        case actions.SEARCH_TITLE:
+        case actions.LOAD_MORE:
+            return Object.assign({}, state, {loading: true});
+        case actions.SEARCH_RESULTS: return { data: action.payload, page: 1, loading: false };
+        case actions.SEARCH_MORE_RESULTS: return ({
+            data: {
+                items: state.data.items.concat(action.payload.items),
+                hasMore: action.payload.hasMore
+            },
+            page: action.payload.page,
+            loading: false
+        });
         default: return state;
     }
 }

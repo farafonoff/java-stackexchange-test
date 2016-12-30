@@ -25,11 +25,14 @@ public class SearchResource {
     private SearchResponse map(StackoverflowResponse orig) {
         SearchResponse result = new SearchResponse();
         result.setHasMore(orig.isHasMore());
-        result.setQuestions(orig.getItems().stream().map((item)->{
+        result.setItems(orig.getItems().stream().map((item)->{
                 FoundQuestion fq = new FoundQuestion();
+                fq.setActivityDate(item.getLastActivityDate());
+                fq.setCreateDate(item.getCreationDate());
                 fq.setAnswered(item.isIsAnswered());
                 fq.setLink(item.getLink());
                 fq.setTitle(item.getTitle());
+				fq.setId(item.getQuestionId());
                 return fq;
         }).collect(Collectors.toList()));
         return result;

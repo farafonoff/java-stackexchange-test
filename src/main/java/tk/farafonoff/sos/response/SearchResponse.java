@@ -6,7 +6,7 @@ import java.util.List;
  * Created by faraf on 29.12.2016.
  */
 public class SearchResponse {
-    List<FoundQuestion> questions;
+    List<FoundQuestion> items;
 
     boolean hasMore;
 
@@ -18,12 +18,12 @@ public class SearchResponse {
         this.hasMore = hasMore;
     }
 
-    public List<FoundQuestion> getQuestions() {
+    public List<FoundQuestion> getItems() {
 
-        return questions;
+        return items;
     }
 
-    public void setQuestions(List<FoundQuestion> questions) {
-        this.questions = questions;
+    public void setItems(List<FoundQuestion> items) {
+        this.items = items;
     }
 }
