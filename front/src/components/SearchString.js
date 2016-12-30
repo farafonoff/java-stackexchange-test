@@ -6,8 +6,9 @@ import React, { Component } from 'react';
 
 export default class SearchString extends Component {
     input;
-    state = {
-        query: ""
+    constructor(props) {
+        super(props);
+        this.state = {query:props.query}
     }
     searchClick(evt) {
         evt.preventDefault();
@@ -16,7 +17,11 @@ export default class SearchString extends Component {
           this.props.onSearch(text);
         }
     }
-    render()  {
+      componentWillReceiveProps(newProps) {
+        this.setState({query: newProps.query});
+      }
+
+  render()  {
         return (
           <Form>
             <Row>
@@ -26,6 +31,7 @@ export default class SearchString extends Component {
                             type="text"
                             placeholder="Search in Stackoverflow"
                             className="input-lg"
+                            value={this.state.query}
                             onChange={evt=>{this.setState({query: evt.target.value})}}
                         />
                         <span className="input-group-btn">

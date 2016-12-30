@@ -27,6 +27,8 @@ public class SearchResource {
         result.setHasMore(orig.isHasMore());
         result.setItems(orig.getItems().stream().map((item)->{
                 FoundQuestion fq = new FoundQuestion();
+                fq.setActivityDate(item.getLastActivityDate());
+                fq.setCreateDate(item.getCreationDate());
                 fq.setAnswered(item.isIsAnswered());
                 fq.setLink(item.getLink());
                 fq.setTitle(item.getTitle());

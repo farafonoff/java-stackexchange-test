@@ -1,0 +1,11 @@
+.search__results {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3em;
+}
+.search__initial {
+    top: 50%;
+    position: absolute;
+    width: 80%;
+    transform: translate(15%,-50%);
+}

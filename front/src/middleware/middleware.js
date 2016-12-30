@@ -8,7 +8,7 @@ import * as generators from '../actions/generators'
 import mock from './myMockData'
 
 //var API = "http://localhost:8080/myapp/stackoverflow/search/";
-var API = "api/stackoverflow/search/";
+var API = "/api/stackoverflow/search/";
 
 function apiCall(query, page=1) {
     return fetch(API+encodeURIComponent(query)+"/"+page)
