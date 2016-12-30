@@ -1,7 +1,7 @@
 package tk.farafonoff.sos;
 
 import org.glassfish.jersey.server.ResourceConfig;
-import tk.farafonoff.sos.support.CORSFilter;
+import tk.farafonoff.sos.helpers.CORSFilter;
 
 /**
  * Created by faraf on 29.12.2016.
