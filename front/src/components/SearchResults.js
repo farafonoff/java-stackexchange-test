@@ -19,7 +19,7 @@ export default class SearchResults extends Component {
         return (
             <Table className="table">
                 <thead>
-                <tr><th>Created</th><th>Last activity</th><th>Title</th><th>Link</th></tr>
+                <tr><th>Created</th><th>Last activity</th><th>Title</th></tr>
                 </thead>
                 <ReduxInfiniteScroll
                     hasMore={this.props.data.hasMore}
@@ -42,8 +42,8 @@ export default class SearchResults extends Component {
               month="long"
               year="numeric" /> </td>
             <td> <FormattedRelative value={new Date(item.activity_date*1000)} /> </td>
-            <td dangerouslySetInnerHTML={{__html:  item.title}} />
-            <td><a href={item.link} target="_blank">GoTo</a></td>
+            <td><a href={item.link} target="_blank" dangerouslySetInnerHTML={{__html:  item.title}}/></td>
         </tr>
     }
+	//<td><a href={item.link} target="_blank">GoTo</a></td>
 }
