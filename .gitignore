@@ -17,3 +17,5 @@ gradle-app.setting
 .idea/
 *.class
 
+*.log
+front/npm-debug.log.249576079

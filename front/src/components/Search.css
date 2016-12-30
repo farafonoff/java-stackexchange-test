@@ -9,3 +9,20 @@
     width: 80%;
     transform: translate(15%,-50%);
 }
+
+@media screen and (max-width: 600px) {
+	.search__results {
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 1em;
+		width: 99%;
+	}
+	.search__initial {
+		top: 50%;
+		position: absolute;
+		padding-left: 1em;
+		padding-right: 1em;
+		width: 99%;
+		transform: translateY(-50%);
+	}
+}
